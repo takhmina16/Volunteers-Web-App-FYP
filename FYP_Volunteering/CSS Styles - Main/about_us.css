@@ -1,0 +1,147 @@
+﻿@import url("fonts.css");
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    /* theme font families */
+    --Raleway: 'Raleway', cursive;
+    /* theme colors */
+    --text-gray: #3f4954;
+    --bg-greenlight: #E9EDC9;
+    --bg-greendarker: #CCD5AE;
+    --bg-beige: #FAEDCD;
+    --bg-lightbeige: #FEFAE0;
+    --text-black: #0f0f0f;
+    --bg-blue: 90e0ef;
+    /*gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --purple: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+/* -------- Global Classes ---------*/
+main{
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+a {
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: Raleway;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 1.3rem;
+}
+
+span {
+    font-family: Raleway;
+}
+
+.container {
+    margin: 0 5vw;
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+p {
+    font-family: Raleway;
+    color: var(--text-black);
+}
+
+
+/* ------ Main Body Section ------ */
+/* ------ Site Title ------------- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+main .site-title {
+    background: url(../img/gifs/5.gif);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    background-repeat: no-repeat; 
+    justify-content: center;
+}
+
+ main .site-title .site-background {
+        padding-top: 0.2rem;
+        justify-content: center;
+        color: black;
+        font-family: Raleway;
+ }
+
+    main .site-title .btn {
+        margin: 2.5rem;
+        background: #fda03a;
+        padding: 20px;
+    }
+
+        main .site-title .btn:hover {
+            background: transparent;
+            border: 1px solid green;
+            color: black;
+        }
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f48e32;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.title {
+    color: black;
+}
+
+/* ------ Site Title END ------------- */

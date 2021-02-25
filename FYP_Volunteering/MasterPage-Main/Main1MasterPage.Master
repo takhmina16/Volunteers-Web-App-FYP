@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main1MasterPage.master.cs" Inherits="FYP_Volunteering.Main1MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteering is Fun!</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../CSS Styles - Main/all.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS Styles - Main/MasterStyle.css" >
+    
+    <!-- Jquery Library file -->
+    <script src="../JavaScript_Main/Jquery3.5.1.min.js"></script>
+    <!-- Java Script File --> 
+    <script src="../JavaScript_Main/main.js"></script>
+    <script src="../JavaScript_Main/owl.carousel.min.js"></script>
+
+    <!--------------------------- Owl Carousel ----------------------------------> 
+    <link rel="stylesheet" href="CSS Styles - Main/owl.carousel.min.css" /> 
+    <link rel="stylesheet" href="CSS Styles - Main/owl.theme.default.min.css" /> 
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!-- ----------------------------  Navigation ---------------------------------------------- -->
+<br />
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="../HomePage.aspx" class="text-gray"><i class="fas fa-chess-queen" style="font-size: 35px;"></i></a>           
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="../Recruit_Volunteers.aspx">Recruit Volunteers</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../Volunteer_Opportunity/Main_Page.aspx">Opportunities</a>
+                    </li>
+                    <li class="nav-link"> 
+                        <a href="../Articles_Main/Main.aspx">Articles</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../Main_About_Us.aspx">About Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../Contact_Us.aspx">Contact Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../User_Login_Register/user_login.aspx">Log-In</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+    <!-- Jquery Library file -->
+    <script src="../JavaScript_Main/Jquery3.5.1.min.js"></script>
+    <!-- Java Script File --> 
+    <script src="../JavaScript_Main/main.js"></script>
+    
+        <!--------------------------- Owl Carousel JavaScript----------------------------------> 
+    <script src="JavaScript_Main/owl.carousel.min.js"></script>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+ <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Us</h2>
+                <p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                    iure, autem nulla tenetur repellendus.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p style="color:white;">Stay update with our latest!</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="../img/instagram/thumb-card3.png" alt="insta1">
+                    <img src="../img/instagram/thumb-card4.png" alt="insta2">
+                    <img src="../img/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="../img/instagram/thumb-card6.png" alt="insta4">
+                    <img src="../img/instagram/thumb-card7.png" alt="insta5">
+                    <img src="../img/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p style="color:white;">Let us be Social!</p>
+                <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2020 All Rights Reserved | made by Takhmina 
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><a href="#form1"><i class="fas fa-arrow-circle-up fa-2x"></i></a></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+    </form>
+</body>
+</html>

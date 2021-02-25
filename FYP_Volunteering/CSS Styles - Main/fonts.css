@@ -1,0 +1,47 @@
+﻿/*  font-family: Livvic  */
+@font-face {
+    font-family: Livvic;
+    src: url(../fontsMain/Livvic/Livvic-Regular.ttf)
+}
+
+/*  font-family: Josefin  */
+@font-face {
+    font-family: Josefin;
+    src: url(../fontsMain/Josefin_Slab/static/JosefinSlab-Regular.ttf);
+}
+
+/*  font-family: Josefin-Bold  */
+@font-face {
+    font-family: JosefinBold;
+    src: url(../fontsMain/Josefin_Slab/static/JosefinSlab-SemiBold.ttf);
+}
+
+/*  font-family: Lexend  */
+@font-face {
+    font-family: Lexed;
+    src: url(../fontsMain/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+/*  font-family: Abel  */
+@font-face {
+    font-family: Abel;
+    src: url(../fontsMain/Abel/Abel-Regular.ttf);
+}
+
+/*  font-family: Raleway  */
+@font-face {
+    font-family: Raleway;
+    src: url(../fontsMain/Raleway/static/Raleway-Regular.ttf); 
+}
+
+/*  font-family: RalewayBold  */
+@font-face {
+    font-family: RalewayBold;
+    src: url(../fontsMain/Raleway/static/Raleway-SemiBold.ttf); 
+}
+
+/*  font-family: RalewayIt  */
+@font-face {
+    font-family: RalewayIt;
+    src: url(../fontsMain/Raleway/static/Raleway-MediumItalic.ttf);
+}

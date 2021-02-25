@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Users-Login.master.cs" Inherits="FYP_Volunteering.MasterPage_Main.Users_Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Student Volunteering</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS Styles - Main/Master_Page_2/index.css">
+
+    <!-------- Bootstrap CSS File -----------> 
+    <link href="../Bootstrap_Main/CSS/bootstrap.min.css" rel="stylesheet" />
+    <!-------- Datatable CSS File -----------> 
+    <link href="../Datatables/CSS/jquery.dataTables.min.css" rel="stylesheet" />
+
+     <!-------- Fontsawesome CSS File -----------> 
+    <link href="../Fontawesome/css/all.css" rel="stylesheet" />
+
+    <!-------- JQuery File -----------> 
+    <script src="../Bootstrap_Main/JS/jquery-3.3.1.slim.min.js"></script>
+    <!-------- Popper JS File -----------> 
+    <script src="../Bootstrap_Main/JS/popper.min.js"></script>
+    <!-------- Bootstrap  File -----------> 
+    <script src="../Bootstrap_Main/JS/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                 <a class="navbar-brand" href="../HomePage.aspx">
+                     <i class="fas fa-chess-queen" style="font-size: 35px;margin-left:20px;"></i>
+                     
+                 </a> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+ 
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../HomePage.aspx" style="font-size: 16.5px; color: black">Home</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a href="../Recruiter_Login/recruiter_login.aspx" class="nav-link" style="font-size: 16.5px; color: black">Recruiter Login</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a  href="../User_Login_Register/user_login.aspx" class="nav-link" style="font-size: 16.5px; color: black">User Login</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../Admin_Login/admin_login.aspx" style="font-size: 16.5px; color: black">Admin</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Content Placeholder -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--x-- Main Content Placeholder --x-->
+        <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Us</h2>
+                <p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                    iure, autem nulla tenetur repellendus.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p style="color:white;">Stay update with our latest!</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="../img/instagram/thumb-card3.png" alt="insta1">
+                    <img src="../img/instagram/thumb-card4.png" alt="insta2">
+                    <img src="../img/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="../img/instagram/thumb-card6.png" alt="insta4">
+                    <img src="../img/instagram/thumb-card7.png" alt="insta5">
+                    <img src="../img/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p style="color:white;">Let us be Social!</p>
+                <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" style="text-decoration:none"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray" style="text-align:center;">
+                Copyright ©2020 All Rights Reserved | made by Takhmina 
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><a href="#form1"><i class="fas fa-arrow-circle-up fa-2x"></i></a></span>
+        </div>
+        </footer>
+    </form>
+</body>
+</html>

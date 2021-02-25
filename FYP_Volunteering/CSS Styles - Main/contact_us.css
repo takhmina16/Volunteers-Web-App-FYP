@@ -1,0 +1,21 @@
+﻿@import url("fonts.css");
+
+.content {
+    font-family: Raleway;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.table-content{
+    text-align: center; 
+}
+.btn {
+    background: green;
+    padding: 15px;
+    font-family: Raleway; 
+    text-align: center; 
+}
+    .btn:hover {
+        background: transparent;
+        border: 1px solid green;
+        color: black;
+    }

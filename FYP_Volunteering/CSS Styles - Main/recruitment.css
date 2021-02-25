@@ -1,0 +1,36 @@
+﻿@import url("fonts.css");
+
+/* ------ Site Title ------------- */
+.main{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+main .site-title {
+    background: url(../img/hands-planting1.jpg);
+    background-size: cover;
+    height: 63vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main .site-title .site-background {
+        padding-top: 3rem;
+        justify-content: center;  
+        color: white;
+        font-family: Raleway; 
+}
+
+main .site-title .btn {
+        margin: 2.5rem;
+        background: #fc4848;
+        padding: 20px;
+}
+
+        main .site-title .btn:hover {
+            background: transparent;
+            border: 1px solid green;
+            color: black;
+        }
+/* ------ Site Title END ------------- */
